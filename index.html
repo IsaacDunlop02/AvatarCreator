@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	
+<head>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<!-- CSS Styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	
+	<script>
+	
+		function changeHairL()
+		{
+			var img = document.getElementById("hair");
+			img.src="images/Hair_2.png";
+			return false;
+		}
+		
+		function changeHairR()
+		{
+			var img = document.getElementById("hair");
+			img.src="images/Hair_1.png";
+			return false;
+		}
+		
+		function changeShirtA()
+		{
+			var img = document.getElementById("shirt");
+			img.src="images/Shirt_1.png";
+			return false;
+		}
+		
+		function changeShirtB()
+		{
+			var img = document.getElementById("shirt");
+			img.src="images/Shirt_2.png";
+			return false;
+		}
+		
+		function changeBrowsA()
+		{
+			var img = document.getElementById("brows");
+			img.src="images/Brows_1.png";
+			return false;
+		}
+		
+		function changeBrowsB()
+		{
+			var img = document.getElementById("brows");
+			img.src="images/Brows_2.png";
+			return false;
+		}
+		
+		function changeMouthA()
+		{
+			var img = document.getElementById("mouth");
+			img.src="images/Frown.png";
+			return false;
+		}
+		
+		function changeMouthB()
+		{
+			var img = document.getElementById("mouth");
+			img.src="images/Grin.png";
+			return false;
+		}
+		
+	</script>
+	
+</head>
+
+<body>
+	
+	<div class="container-fluid" id="header">
+		<h1>Avatar Creator</h1>
+		<h4>By: Isaac Dunlop</h4>
+		
+		<p>Click through the available buttons below the character in order to select an outfit/look for the character displayed.</p>
+	</div>
+	
+	<div class="container-fluid" id="character_creator">
+		
+		<img src="images/Hair_1.png" alt="hair" id="hair">
+		
+		<img src="images/Eyes.png" alt="eyes" id="eyes">
+		
+		<img src="images/Shirt_1.png" alt="shirt" id="shirt">
+		
+		<img src="images/Brows_1.png" alt="brows" id="brows">
+		
+		<img src="images/Frown.png" alt="mouth" id="mouth">
+		
+		<img src="images/Head_Layer.png" alt="head layer" id="head">
+		<img src="images/Background_Layer.png" alt="background layer" id="background">
+		
+	</div>
+	
+	<div id="buttons">
+		<div class="container-fluid" id="hair_buttons">
+			<button id="Hair2" onClick="changeHairL();">Select Hair #1</button>
+			<button id="Hair1" onClick="changeHairR();">Select Hair #2</button>
+		</div>
+
+		<div class="container-fluid" id="shirt_buttons">
+			<button id="Shirt1" onClick="changeShirtA();">Select Shirt #1</button>
+			<button id="Shirt2" onClick="changeShirtB();">Select Shirt #2</button>
+		</div>	
+
+		<div class="container-fluid" id="brows_buttons">
+			<button id="Brows1" onClick="changeBrowsA();">Select Brows #1</button>
+			<button id="Brows2" onClick="changeBrowsB();">Select Brows #2</button>
+		</div>
+
+		<div class="container-fluid" id="mouth_buttons">
+			<button id="Mouth1" onClick="changeMouthA();">Select Mouth #1</button>
+			<button id="Mouth2" onClick="changeMouthB();">Select Mouth #2</button>
+		</div>
+	</div>
+	
+	<div class="container-fluid" id="footer">
+		<p>
+		What moments were you most proud of your efforts in this course? Why?
+		<br>
+		<br>
+		To be perfectly honest, the only thing I've been proud of and happy to do in this course was developing my own game.
+		Other than that, this course has been hell. I guess it's because game developing is something I'm very passionate about.
+		<br>
+		<br>
+		Provide an example of a tough situation or barrier you handled well in this course and the key strengths you relied on.
+		<br>
+		<br>
+		Well, I didn't know how to code in HTML, Java, or CSS whatsoever before I began in this course. However, I relied on my ability to think outside the box as well as my determination. I never gave up and that's what keeps me from failing.
+		<br>
+		<br>
+		If you could do anything in this course over again, what, if anything, would you change?
+		<br>
+		<br>
+		I'd rather not do anything over again or change anything. This course is terrible.
+		<br>
+		<br>
+		What actions/behaviours should you start doing that would help you in future courses?
+		<br>
+		<br>
+		Not breaking my hands in the middle of a semester would probably be a good change.
+		</p>
+	</div>
+</body>
+</html>
